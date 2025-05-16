@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assinment 2.1</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body> 
+    <!-- header starts here  --> 
+        <header> 
+            <div class="container">
+                <div class="row">
+                    <div class="header-logo">
+                        <img src="logo.png" width="150" alt=""; style="filter: invert(1);">
+                    </div>
+                    <nav>
+                        <ul class="nav-menu">
+                            <li class="nav-text"> <a href="#home"> home</a></li>
+                            <li class="nav-text"> <a href="#products"> products</a></li>
+                            <li class="nav-text"> <a href="#home"> about</a></li>
+                            <li class="nav-text"> <a href="#contact"> contact us</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header> 
+    <!-- banner section starts here --> 
+        <section class="banner-main" id="home">
+            <div class="banner-content">
+                <h1>welcome to our website</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere officia, nemo est excepturi itaque nulla repellat odit omnis praesentium debitis nobis quos autem labore rerum, numquam in delectus, id minus totam. Dolor nulla ut voluptates sapiente ipsam consectetur, error, commodi aliquid eveniet, laudantium cupiditate repellendus sit molestias consequatur. Tempora sunt fuga reiciendis qui expedita vel nesciunt, facere, modi quod, corrupti velit alias vero error libero provident! Assumenda soluta possimus eveniet.</p>
+            </div>
+        </section> 
+    <!-- product section starts here --> 
+        <section id="products">
+            <div class="container">
+                <div class="section-heading">
+                    <h2 style="font-family: 'Oswald', sans-serif;">EXPLORE OUR DRAgo PRODUCTS</h2>
+                    <p style="font-family: 'Roboto', sans-serif;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus, perspiciatis.</p>
+                </div>
+                <div class="product-card-main">
+                    <div class="row">
+                        <!-- product card1-->
+                        <div class="product-card">
+                            <div class="product-card-img">
+
+                            </div>
+                            <h3 class="product-card-heading">
+                                DRAgo one
+                            </h3>
+                            <p class="product-card-para">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores eius molestias ratione, perferendis deleniti magnam veniam ut debitis saepe inventore!
+                            </p>
+                            <button class="btn prime-btn">view now</button>
+                        </div>
+                        <!-- product card2-->
+                        <div class="product-card">
+                            <div class="product-card-img">
+
+                            </div>
+                            <h3 class="product-card-heading">
+                                DRAgo two
+                            </h3>
+                            <p class="product-card-para">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores eius molestias ratione, perferendis deleniti magnam veniam ut debitis saepe inventore!
+                            </p>
+                            <button class="btn prime-btn">view now</button>
+                        </div>
+                        <!-- product card3-->
+                        <div class="product-card">
+                            <div class="product-card-img">
+
+                            </div>
+                            <h3 class="product-card-heading">
+                                DRAgo three
+                            </h3>
+                            <p class="product-card-para">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores eius molestias ratione, perferendis deleniti magnam veniam ut debitis saepe inventore!
+                            </p>
+                            <button class="btn prime-btn">view now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> 
+    
+<!-- Contact Form Section -->
+<section class="contact-form-section" id="contact">
+    <div class="container">
+        <div class="section-heading">
+            <h2>Get in Touch</h2>
+            <p>Fill out the form below and we'll get back to you shortly</p>
+        </div>
+        <div class="form-container">
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" class="form-control" placeholder="John Doe" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" class="form-control" placeholder="example@mail.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" class="form-control" placeholder="+91-9876543210" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <select id="subject" name="subject" class="form-control" required>
+                        <option value="" disabled selected>Select a subject</option>
+                        <option value="inquiry">General Inquiry</option>
+                        <option value="support">Technical Support</option>
+                        <option value="feedback">Feedback</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" class="form-control" rows="4" placeholder="Write your message here..." required></textarea>
+                </div>
+                <div class="form-group">
+                    <label>Preferred Contact Method</label>
+                    <div class="radio-group">
+                        <label><input type="radio" name="contact_method" value="email" checked> Email</label>
+                        <label><input type="radio" name="contact_method" value="phone"> Phone</label>
+                    </div>
+                </div>
+                <div class="form-group checkbox-group">
+                    <label><input type="checkbox" name="terms" required> I agree to the <a href="#">terms and conditions</a></label>
+                </div>
+                <div class="form-group text-center">
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+    
+    <!-- footer section starts here -->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col">
+                        <img src="logo.png" alt="logo" width="150" style="filter: invert(1);">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="footer-col">
+                        <h4>menu</h4>
+                        <ul>
+                            <li class="footer-hover"> <a href="#home"> Home</a></li>
+                            <li class="footer-hover"> <a href="#products"> Products</a></li>
+                            <li class="footer-hover"> <a href="#home"> About</a></li>
+                            <li class="footer-hover"> <a href="#contact"> Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>social icons</h4>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Instagram</li>
+                            <li>Linkedin</li>
+                            <li>Twitter</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copy text-center">
+                &copy;2025 DRAgo all rights reserved.
+            </div>
+        </footer> 
+</body>
+</html>
