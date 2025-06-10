@@ -43,18 +43,6 @@ DRago/
 
 ---
 
-## 📌 How to Use
-
-1. Clone the repo
-
-```bash
-git clone https://github.com/your-username/drago.git
-```
-
-2. Open `index.html` in your browser.
-
----
-
 ## ✨ Customization
 
 Feel free to customize:
@@ -78,15 +66,8 @@ Contributions are welcome! If you'd like to improve the UI or add features:
 
 ## 🧾 License
 
-This project is open source and available under the [MIT License](LICENSE).
+This project is open source and available on github.
 
 ---
-
-## 📬 Contact
-
-For feedback or questions:
-
-* 📧 Email: [yourname@example.com](mailto:yourname@example.com)
-* 🌐 Portfolio: [yourportfolio.com](#)
 
 > Made with ❤️ using HTML & CSS only.
